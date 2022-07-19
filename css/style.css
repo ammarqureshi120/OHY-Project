@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(53, 52, 52);
+    color: white;
+}
+
+
+/* Navigation styling */
+
+header {
+    position: sticky;
+    top: 0px;
+    background: #353434;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px;
+}
+
+#nav-items {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav-items li {
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    padding: 20px 33px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#nav-items li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    transition: 0.3s ease-in;
+}
+
+#nav-items li a:hover {
+    color: orangered;
+}
+
+
+
+
+#nav-items i {
+    font-size: 30px;
+    color: orangered;
+}
+
+
+#nav-items i a {
+    padding-left: 10px;
+    color: orangered;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+
+#nav-items i a:hover {
+    color: rgb(128, 87, 77);
+}
+
+button.btn {
+    padding: 8px 20px;
+    color: orangered;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 2px solid orangered;
+    background: transparent;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+button.btn:hover {
+    background: rgb(65, 62, 62);
+    ;
+    color: rgb(179, 69, 29);
+
+}
+
+
+/* Home container styling */
+
+#home-container {
+
+    padding: 60px;
+}
+
+#home-container p {
+    font-size: 1.5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#home-container h1 {
+    padding: 30px 0px;
+    font-size: 5.8rem;
+    width: 1000px;
+}
+
+#home-container h1 span {
+    font-family: serif;
+    font-style: italic;
+
+}
+
+
+/* Home Second Section */
+
+#home-second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-box {
+    padding: 60px;
+}
+
+.home-box h2 {
+    width: 500px;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.home-box p {
+    padding: 25px 0px;
+    font-size: 1.3rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.home-box button.btn {
+    transition: 1s ease-out 0s;
+}
+
+.home-box button.btn:hover {
+    background-color: rgb(190, 121, 65);
+    color: black;
+
+}
+
+
+#home-second-container .september {
+    background: rgb(233, 102, 26);
+    border: 2px solid orangered;
+    border-radius: 70%;
+    padding: 70px 40px;
+    font-size: 1.2rem;
+    position: relative;
+    right: 30px;
+    display: flex;
+    z-index: -1;
+}
+
+
+
+/* utility class */
+
+.h-primary {
+    font-size: 3.5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    border: 1px solid orangered;
+
+}
+
+.h-secondary {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.h2-primary {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
+}
+
+
+
+/* Home Third section styling */
+
+#home-third-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home-third-sect div.conference {
+    border: 2px solid orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 44px;
+    border-radius: 70%;
+    height: 700px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+div.conference p {
+    width: 410px;
+    padding: 25px 0;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+}
+
+div.conference h2 {
+    font-size: 3.8rem;
+    font-weight: 500;
+}
+
+div.conference h2 span {
+    font-family: serif;
+    font-style: italic;
+}
+
+
+/* #### auditorium section styling #### */
+#auditorium {
+    background: url(../images/auditorium-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    padding: 45px;
+    background-blend-mode: lighten;
+}
+
+#auditorium h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#auditorium h1 {
+    width: 310px;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 66px;
+    padding: 30px 0px;
+}
+
+#auditorium h1 span {
+    font-family: serif;
+    font-style: italic;
+}
+
+#auditorium hr {
+    border: 1px solid white;
+}
+
+.auditorium-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.auditorium-div p {
+    width: 500px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+}
+
+/* speaker section styling  */
+
+#speakers-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+
+#speakers-section h2 {
+    font-size: 2.3rem;
+}
+
+#speakers-section h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    width: 382px;
+    padding: 30px 0px;
+}
+
+#speakers-section h1 span {
+    font-family: serif;
+    font-style: italic;
+}
+
+
+.speaker-div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.speaker-div p {
+    width: 315px;
+    font-size: 1.3rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.speaker-div button {
+    height: 50px;
+    align-self: center;
+}
+
+
+
+
+/* About section styling */
+
+section#about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 33px 0;
+}
+
+section#about span {
+    margin: 15px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+section#about span.about-span {
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
+}
